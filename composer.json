@@ -1,0 +1,23 @@
+{
+  "name": "luminar-organization/mailer",
+  "type": "library",
+  "description": "The Luminar Mailer provides a flexible email handling system that uses a factory pattern to support multiple implementations",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patryk Molenda",
+      "email": "patryk.fr.molenda@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "phpmailer/phpmailer": ">=v6.9.1",
+    "luminar-organization/render-engine": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Luminar\\Component\\Mailer\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
